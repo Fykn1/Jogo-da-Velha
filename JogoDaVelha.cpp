@@ -952,7 +952,7 @@ int main(){
         if(jgda[3] == 2){
             string l1 = "_x_|_x_|___";
             string l2 = "___|___|___";
-            string l3 = "   | o | o ";
+            string l3 = "   |   | o ";
             cout << l1 << endl << l2 << endl << l3 << endl;   
         }
         else if(jgda[3] == 3){
@@ -1305,7 +1305,7 @@ int main(){
         if(jgda[3] == 1){
             string l1 = "_x_|_x_|___";
             string l2 = "___|___|___";
-            string l3 = "   | o | o ";
+            string l3 = "   |   | o ";
             cout << l1 << endl << l2 << endl << l3 << endl;   
         }
         else if(jgda[3] == 3){
@@ -1342,6 +1342,2477 @@ int main(){
             string l1 = "___|_x_|___";
             string l2 = "___|___|___";
             string l3 = "   | x | o ";
+            cout << l1 << endl << l2 << endl << l3 << endl;   
+        }
+    }
+
+    if(jgda[1] == 3 && jgda[2] == 1){
+        if(jgda[3] == 2){
+            string l1 = "_o_|_x_|_x_";
+            string l2 = "___|___|___";
+            string l3 = "   |   |   ";
+            cout << l1 << endl << l2 << endl << l3 << endl;   
+        }
+        else if(jgda[3] == 4){
+            string l1 = "_o_|___|_x_";
+            string l2 = "_x_|___|___";
+            string l3 = "   |   |   ";
+            cout << l1 << endl << l2 << endl << l3 << endl;   
+        }
+        else if(jgda[3] == 5){
+            string l1 = "_o_|___|_x_";
+            string l2 = "___|_x_|___";
+            string l3 = "   |   |   ";
+            cout << l1 << endl << l2 << endl << l3 << endl;   
+        }
+        else if(jgda[3] == 6){
+            string l1 = "_o_|___|_x_";
+            string l2 = "___|___|_x_";
+            string l3 = "   |   |   ";
+            cout << l1 << endl << l2 << endl << l3 << endl;   
+        }
+        else if(jgda[3] == 7){
+            string l1 = "_o_|___|_x_";
+            string l2 = "___|___|___";
+            string l3 = " x |   |   ";
+            cout << l1 << endl << l2 << endl << l3 << endl;   
+        }
+        else if(jgda[3] == 8){
+            string l1 = "_o_|___|_x_";
+            string l2 = "___|___|___";
+            string l3 = "   | x |   ";
+            cout << l1 << endl << l2 << endl << l3 << endl;   
+        }
+        else{
+            string l1 = "_o_|___|_x_";
+            string l2 = "___|___|___";
+            string l3 = "   |   | x ";
+            cout << l1 << endl << l2 << endl << l3 << endl;   
+        }
+    }
+    else if(jgda[1] == 3 && jgda[2] == 2){
+        if(jgda[3] == 1){
+            string l1 = "_x_|_o_|_x_";
+            string l2 = "___|___|___";
+            string l3 = "   |   |   ";
+            cout << l1 << endl << l2 << endl << l3 << endl;   
+        }
+        else if(jgda[3] == 4){
+            string l1 = "___|_o_|_x_";
+            string l2 = "_x_|___|___";
+            string l3 = "   |   |   ";
+            cout << l1 << endl << l2 << endl << l3 << endl;   
+        }
+        else if(jgda[3] == 5){
+            string l1 = "___|_o_|_x_";
+            string l2 = "___|_x_|___";
+            string l3 = "   |   |   ";
+            cout << l1 << endl << l2 << endl << l3 << endl;   
+        }
+        else if(jgda[3] == 6){
+            string l1 = "___|_o_|_x_";
+            string l2 = "___|___|_x_";
+            string l3 = "   |   |   ";
+            cout << l1 << endl << l2 << endl << l3 << endl;   
+        }
+        else if(jgda[3] == 7){
+            string l1 = "___|_o_|_x_";
+            string l2 = "___|___|___";
+            string l3 = " x |   |   ";
+            cout << l1 << endl << l2 << endl << l3 << endl;   
+        }
+        else if(jgda[3] == 8){
+            string l1 = "___|_o_|_x_";
+            string l2 = "___|___|___";
+            string l3 = "   | x |   ";
+            cout << l1 << endl << l2 << endl << l3 << endl;   
+        }
+        else{
+            string l1 = "___|_o_|_x_";
+            string l2 = "___|___|___";
+            string l3 = "   |   | x ";
+            cout << l1 << endl << l2 << endl << l3 << endl;   
+        }
+    }
+    else if(jgda[1] == 3 && jgda[2] == 4){
+        if(jgda[3] == 1){
+            string l1 = "_x_|___|_x_";
+            string l2 = "_o_|___|___";
+            string l3 = "   |   |   ";
+            cout << l1 << endl << l2 << endl << l3 << endl;   
+        }
+        else if(jgda[3] == 2){
+            string l1 = "___|_x_|_x_";
+            string l2 = "_o_|___|___";
+            string l3 = "   |   |   ";
+            cout << l1 << endl << l2 << endl << l3 << endl;   
+        }
+        else if(jgda[3] == 5){
+            string l1 = "___|___|_x_";
+            string l2 = "_o_|_x_|___";
+            string l3 = "   |   |   ";
+            cout << l1 << endl << l2 << endl << l3 << endl;   
+        }
+        else if(jgda[3] == 6){
+            string l1 = "___|___|_x_";
+            string l2 = "_o_|___|_x_";
+            string l3 = "   |   |   ";
+            cout << l1 << endl << l2 << endl << l3 << endl;   
+        }
+        else if(jgda[3] == 7){
+            string l1 = "___|___|_x_";
+            string l2 = "_o_|___|___";
+            string l3 = " x |   |   ";
+            cout << l1 << endl << l2 << endl << l3 << endl;   
+        }
+        else if(jgda[3] == 8){
+            string l1 = "___|___|_x_";
+            string l2 = "_o_|___|___";
+            string l3 = "   | x |   ";
+            cout << l1 << endl << l2 << endl << l3 << endl;   
+        }
+        else{
+            string l1 = "___|___|_x_";
+            string l2 = "_o_|___|___";
+            string l3 = "   |   | x ";
+            cout << l1 << endl << l2 << endl << l3 << endl;   
+        }
+    }
+    else if(jgda[1] == 3 && jgda[2] == 5){
+        if(jgda[3] == 1){
+            string l1 = "_x_|___|_x_";
+            string l2 = "___|_o_|___";
+            string l3 = "   |   |   ";
+            cout << l1 << endl << l2 << endl << l3 << endl;   
+        }
+        else if(jgda[3] == 2){
+            string l1 = "___|_x_|_x_";
+            string l2 = "___|_o_|___";
+            string l3 = "   |   |   ";
+            cout << l1 << endl << l2 << endl << l3 << endl;   
+        }
+        else if(jgda[3] == 4){
+            string l1 = "___|___|_x_";
+            string l2 = "_x_|_o_|___";
+            string l3 = "   |   |   ";
+            cout << l1 << endl << l2 << endl << l3 << endl;   
+        }
+        else if(jgda[3] == 6){
+            string l1 = "___|___|_x_";
+            string l2 = "___|_o_|_x_";
+            string l3 = "   |   |   ";
+            cout << l1 << endl << l2 << endl << l3 << endl;   
+        }
+        else if(jgda[3] == 7){
+            string l1 = "___|___|_x_";
+            string l2 = "___|_o_|___";
+            string l3 = " x |   |   ";
+            cout << l1 << endl << l2 << endl << l3 << endl;   
+        }
+        else if(jgda[3] == 8){
+            string l1 = "___|___|_x_";
+            string l2 = "___|_o_|___";
+            string l3 = "   | x |   ";
+            cout << l1 << endl << l2 << endl << l3 << endl;   
+        }
+        else{
+            string l1 = "___|___|_x_";
+            string l2 = "___|_o_|___";
+            string l3 = "   |   | x ";
+            cout << l1 << endl << l2 << endl << l3 << endl;   
+        }
+    }
+    else if(jgda[1] == 3 && jgda[2] == 6){
+        if(jgda[3] == 1){
+            string l1 = "_x_|___|_x_";
+            string l2 = "___|___|_o_";
+            string l3 = "   |   |   ";
+            cout << l1 << endl << l2 << endl << l3 << endl;   
+        }
+        else if(jgda[3] == 2){
+            string l1 = "___|_x_|_x_";
+            string l2 = "___|___|_o_";
+            string l3 = "   |   |   ";
+            cout << l1 << endl << l2 << endl << l3 << endl;   
+        }
+        else if(jgda[3] == 4){
+            string l1 = "___|___|_x_";
+            string l2 = "_x_|___|_o_";
+            string l3 = "   |   |   ";
+            cout << l1 << endl << l2 << endl << l3 << endl;   
+        }
+        else if(jgda[3] == 5){
+            string l1 = "___|___|_x_";
+            string l2 = "___|_x_|_o_";
+            string l3 = "   |   |   ";
+            cout << l1 << endl << l2 << endl << l3 << endl;   
+        }
+        else if(jgda[3] == 7){
+            string l1 = "___|___|_x_";
+            string l2 = "___|___|_o_";
+            string l3 = " x |   |   ";
+            cout << l1 << endl << l2 << endl << l3 << endl;   
+        }
+        else if(jgda[3] == 8){
+            string l1 = "___|___|_x_";
+            string l2 = "___|___|_o_";
+            string l3 = "   | x |   ";
+            cout << l1 << endl << l2 << endl << l3 << endl;   
+        }
+        else{
+            string l1 = "___|___|_x_";
+            string l2 = "___|___|_o_";
+            string l3 = "   |   | x ";
+            cout << l1 << endl << l2 << endl << l3 << endl;   
+        }
+    }
+    else if(jgda[1] == 3 && jgda[2] == 7){
+        if(jgda[3] == 1){
+            string l1 = "_x_|___|_x_";
+            string l2 = "___|___|___";
+            string l3 = " o |   |   ";
+            cout << l1 << endl << l2 << endl << l3 << endl;   
+        }
+        else if(jgda[3] == 2){
+            string l1 = "___|_x_|_x_";
+            string l2 = "___|___|___";
+            string l3 = " o |   |   ";
+            cout << l1 << endl << l2 << endl << l3 << endl;   
+        }
+        else if(jgda[3] == 4){
+            string l1 = "___|___|_x_";
+            string l2 = "_x_|___|___";
+            string l3 = " o |   |   ";
+            cout << l1 << endl << l2 << endl << l3 << endl;   
+        }
+        else if(jgda[3] == 5){
+            string l1 = "___|___|_x_";
+            string l2 = "___|_x_|___";
+            string l3 = " o |   |   ";
+            cout << l1 << endl << l2 << endl << l3 << endl;   
+        }
+        else if(jgda[3] == 6){
+            string l1 = "___|___|_x_";
+            string l2 = "___|___|_x_";
+            string l3 = " o |   |   ";
+            cout << l1 << endl << l2 << endl << l3 << endl;   
+        }
+        else if(jgda[3] == 8){
+            string l1 = "___|___|_x_";
+            string l2 = "___|___|___";
+            string l3 = " o | x |   ";
+            cout << l1 << endl << l2 << endl << l3 << endl;   
+        }
+        else{
+            string l1 = "___|___|_x_";
+            string l2 = "___|___|___";
+            string l3 = " o |   | x ";
+            cout << l1 << endl << l2 << endl << l3 << endl;   
+        }
+    }
+    else if(jgda[1] == 3 && jgda[2] == 8){
+        if(jgda[3] == 1){
+            string l1 = "_x_|___|_x_";
+            string l2 = "___|___|___";
+            string l3 = "   | o |   ";
+            cout << l1 << endl << l2 << endl << l3 << endl;   
+        }
+        else if(jgda[3] == 2){
+            string l1 = "___|_x_|_x_";
+            string l2 = "___|___|___";
+            string l3 = "   | o |   ";
+            cout << l1 << endl << l2 << endl << l3 << endl;   
+        }
+        else if(jgda[3] == 4){
+            string l1 = "___|___|_x_";
+            string l2 = "_x_|___|___";
+            string l3 = "   | o |   ";
+            cout << l1 << endl << l2 << endl << l3 << endl;   
+        }
+        else if(jgda[3] == 5){
+            string l1 = "___|___|_x_";
+            string l2 = "___|_x_|___";
+            string l3 = "   | o |   ";
+            cout << l1 << endl << l2 << endl << l3 << endl;   
+        }
+        else if(jgda[3] == 6){
+            string l1 = "___|___|_x_";
+            string l2 = "___|___|_x_";
+            string l3 = "   | o |   ";
+            cout << l1 << endl << l2 << endl << l3 << endl;   
+        }
+        else if(jgda[3] == 7){
+            string l1 = "___|___|_x_";
+            string l2 = "___|___|___";
+            string l3 = " x | o |   ";
+            cout << l1 << endl << l2 << endl << l3 << endl;   
+        }
+        else{
+            string l1 = "___|___|_x_";
+            string l2 = "___|___|___";
+            string l3 = "   | o | x ";
+            cout << l1 << endl << l2 << endl << l3 << endl;   
+        }
+    }
+    else if(jgda[1] == 3 && jgda[2] == 9){
+        if(jgda[3] == 1){
+            string l1 = "_x_|___|_x_";
+            string l2 = "___|___|___";
+            string l3 = "   |   | o ";
+            cout << l1 << endl << l2 << endl << l3 << endl;   
+        }
+        else if(jgda[3] == 2){
+            string l1 = "___|_x_|_x_";
+            string l2 = "___|___|___";
+            string l3 = "   |   | o ";
+            cout << l1 << endl << l2 << endl << l3 << endl;   
+        }
+        else if(jgda[3] == 4){
+            string l1 = "___|___|_x_";
+            string l2 = "_x_|___|___";
+            string l3 = "   |   | o ";
+            cout << l1 << endl << l2 << endl << l3 << endl;   
+        }
+        else if(jgda[3] == 5){
+            string l1 = "___|___|_x_";
+            string l2 = "___|_x_|___";
+            string l3 = "   |   | o ";
+            cout << l1 << endl << l2 << endl << l3 << endl;   
+        }
+        else if(jgda[3] == 6){
+            string l1 = "___|___|_x_";
+            string l2 = "___|___|_x_";
+            string l3 = "   |   | o ";
+            cout << l1 << endl << l2 << endl << l3 << endl;   
+        }
+        else if(jgda[3] == 7){
+            string l1 = "___|___|_x_";
+            string l2 = "___|___|___";
+            string l3 = " x |   | o ";
+            cout << l1 << endl << l2 << endl << l3 << endl;   
+        }
+        else{
+            string l1 = "___|___|_x_";
+            string l2 = "___|___|___";
+            string l3 = "   | x | o ";
+            cout << l1 << endl << l2 << endl << l3 << endl;   
+        }
+    }
+    
+    if(jgda[1] == 4 && jgda[2] == 1){
+        if(jgda[3] == 2){
+            string l1 = "_o_|_x_|___";
+            string l2 = "_x_|___|___";
+            string l3 = "   |   |   ";
+            cout << l1 << endl << l2 << endl << l3 << endl;   
+        }
+        else if(jgda[3] == 3){
+            string l1 = "_o_|___|_x_";
+            string l2 = "_x_|___|___";
+            string l3 = "   |   |   ";
+            cout << l1 << endl << l2 << endl << l3 << endl;   
+        }
+        else if(jgda[3] == 5){
+            string l1 = "_o_|___|___";
+            string l2 = "_x_|_x_|___";
+            string l3 = "   |   |   ";
+            cout << l1 << endl << l2 << endl << l3 << endl;   
+        }
+        else if(jgda[3] == 6){
+            string l1 = "_o_|___|___";
+            string l2 = "_x_|___|_x_";
+            string l3 = "   |   |   ";
+            cout << l1 << endl << l2 << endl << l3 << endl;   
+        }
+        else if(jgda[3] == 7){
+            string l1 = "_o_|___|___";
+            string l2 = "_x_|___|___";
+            string l3 = " x |   |   ";
+            cout << l1 << endl << l2 << endl << l3 << endl;   
+        }
+        else if(jgda[3] == 8){
+            string l1 = "_o_|___|___";
+            string l2 = "_x_|___|___";
+            string l3 = "   | x |   ";
+            cout << l1 << endl << l2 << endl << l3 << endl;   
+        }
+        else{
+            string l1 = "_o_|___|___";
+            string l2 = "_x_|___|___";
+            string l3 = "   |   | x ";
+            cout << l1 << endl << l2 << endl << l3 << endl;   
+        }
+    }
+    else if(jgda[1] == 4 && jgda[2] == 2){
+        if(jgda[3] == 1){
+            string l1 = "_x_|_o_|___";
+            string l2 = "_x_|___|___";
+            string l3 = "   |   |   ";
+            cout << l1 << endl << l2 << endl << l3 << endl;   
+        }
+        else if(jgda[3] == 3){
+            string l1 = "___|_o_|_x_";
+            string l2 = "_x_|___|___";
+            string l3 = "   |   |   ";
+            cout << l1 << endl << l2 << endl << l3 << endl;   
+        }
+        else if(jgda[3] == 5){
+            string l1 = "___|_o_|___";
+            string l2 = "_x_|_x_|___";
+            string l3 = "   |   |   ";
+            cout << l1 << endl << l2 << endl << l3 << endl;   
+        }
+        else if(jgda[3] == 6){
+            string l1 = "___|_o_|___";
+            string l2 = "_x_|___|_x_";
+            string l3 = "   |   |   ";
+            cout << l1 << endl << l2 << endl << l3 << endl;   
+        }
+        else if(jgda[3] == 7){
+            string l1 = "___|_o_|___";
+            string l2 = "_x_|___|___";
+            string l3 = " x |   |   ";
+            cout << l1 << endl << l2 << endl << l3 << endl;   
+        }
+        else if(jgda[3] == 8){
+            string l1 = "___|_o_|___";
+            string l2 = "_x_|___|___";
+            string l3 = "   | x |   ";
+            cout << l1 << endl << l2 << endl << l3 << endl;   
+        }
+        else{
+            string l1 = "___|_o_|___";
+            string l2 = "_x_|___|___";
+            string l3 = "   |   | x ";
+            cout << l1 << endl << l2 << endl << l3 << endl;   
+        }
+    }
+    else if(jgda[1] == 4 && jgda[2] == 3){
+        if(jgda[3] == 1){
+            string l1 = "_x_|___|_o_";
+            string l2 = "_x_|___|___";
+            string l3 = "   |   |   ";
+            cout << l1 << endl << l2 << endl << l3 << endl;   
+        }
+        else if(jgda[3] == 2){
+            string l1 = "___|_x_|_o_";
+            string l2 = "_x_|___|___";
+            string l3 = "   |   |   ";
+            cout << l1 << endl << l2 << endl << l3 << endl;   
+        }
+        else if(jgda[3] == 5){
+            string l1 = "___|___|_o_";
+            string l2 = "_x_|_x_|___";
+            string l3 = "   |   |   ";
+            cout << l1 << endl << l2 << endl << l3 << endl;   
+        }
+        else if(jgda[3] == 6){
+            string l1 = "___|___|_o_";
+            string l2 = "_x_|___|_x_";
+            string l3 = "   |   |   ";
+            cout << l1 << endl << l2 << endl << l3 << endl;   
+        }
+        else if(jgda[3] == 7){
+            string l1 = "___|___|_o_";
+            string l2 = "_x_|___|___";
+            string l3 = " x |   |   ";
+            cout << l1 << endl << l2 << endl << l3 << endl;   
+        }
+        else if(jgda[3] == 8){
+            string l1 = "___|___|_o_";
+            string l2 = "_x_|___|___";
+            string l3 = "   | x |   ";
+            cout << l1 << endl << l2 << endl << l3 << endl;   
+        }
+        else{
+            string l1 = "___|___|_o_";
+            string l2 = "_x_|___|___";
+            string l3 = "   |   | x ";
+            cout << l1 << endl << l2 << endl << l3 << endl;   
+        }
+    }
+    else if(jgda[1] == 4 && jgda[2] == 5){
+        if(jgda[3] == 1){
+            string l1 = "_x_|___|___";
+            string l2 = "_x_|_o_|___";
+            string l3 = "   |   |   ";
+            cout << l1 << endl << l2 << endl << l3 << endl;   
+        }
+        else if(jgda[3] == 2){
+            string l1 = "___|_x_|___";
+            string l2 = "_x_|_o_|___";
+            string l3 = "   |   |   ";
+            cout << l1 << endl << l2 << endl << l3 << endl;   
+        }
+        else if(jgda[3] == 3){
+            string l1 = "___|___|_x_";
+            string l2 = "_x_|_o_|___";
+            string l3 = "   |   |   ";
+            cout << l1 << endl << l2 << endl << l3 << endl;   
+        }
+        else if(jgda[3] == 6){
+            string l1 = "___|___|___";
+            string l2 = "_x_|_o_|_x_";
+            string l3 = "   |   |   ";
+            cout << l1 << endl << l2 << endl << l3 << endl;   
+        }
+        else if(jgda[3] == 7){
+            string l1 = "___|___|___";
+            string l2 = "_x_|_o_|___";
+            string l3 = " x |   |   ";
+            cout << l1 << endl << l2 << endl << l3 << endl;   
+        }
+        else if(jgda[3] == 8){
+            string l1 = "___|___|___";
+            string l2 = "_x_|_o_|___";
+            string l3 = "   | x |   ";
+            cout << l1 << endl << l2 << endl << l3 << endl;   
+        }
+        else{
+            string l1 = "___|___|___";
+            string l2 = "_x_|_o_|___";
+            string l3 = "   |   | x ";
+            cout << l1 << endl << l2 << endl << l3 << endl;   
+        }
+    }
+    else if(jgda[1] == 4 && jgda[2] == 6){
+        if(jgda[3] == 1){
+            string l1 = "_x_|___|___";
+            string l2 = "_x_|___|_o_";
+            string l3 = "   |   |   ";
+            cout << l1 << endl << l2 << endl << l3 << endl;   
+        }
+        else if(jgda[3] == 2){
+            string l1 = "___|_x_|___";
+            string l2 = "_x_|___|_o_";
+            string l3 = "   |   |   ";
+            cout << l1 << endl << l2 << endl << l3 << endl;   
+        }
+        else if(jgda[3] == 3){
+            string l1 = "___|___|_x_";
+            string l2 = "_x_|___|_o_";
+            string l3 = "   |   |   ";
+            cout << l1 << endl << l2 << endl << l3 << endl;   
+        }
+        else if(jgda[3] == 5){
+            string l1 = "___|___|___";
+            string l2 = "_x_|_x_|_o_";
+            string l3 = "   |   |   ";
+            cout << l1 << endl << l2 << endl << l3 << endl;   
+        }
+        else if(jgda[3] == 7){
+            string l1 = "___|___|___";
+            string l2 = "_x_|___|_o_";
+            string l3 = " x |   |   ";
+            cout << l1 << endl << l2 << endl << l3 << endl;   
+        }
+        else if(jgda[3] == 8){
+            string l1 = "___|___|___";
+            string l2 = "_x_|___|_o_";
+            string l3 = "   | x |   ";
+            cout << l1 << endl << l2 << endl << l3 << endl;   
+        }
+        else{
+            string l1 = "___|___|___";
+            string l2 = "_x_|___|_o_";
+            string l3 = "   |   | x ";
+            cout << l1 << endl << l2 << endl << l3 << endl;   
+        }
+    }
+    else if(jgda[1] == 4 && jgda[2] == 7){
+        if(jgda[3] == 1){
+            string l1 = "_x_|___|___";
+            string l2 = "_x_|___|___";
+            string l3 = " o |   |   ";
+            cout << l1 << endl << l2 << endl << l3 << endl;   
+        }
+        else if(jgda[3] == 2){
+            string l1 = "___|_x_|___";
+            string l2 = "_x_|___|___";
+            string l3 = " o |   |   ";
+            cout << l1 << endl << l2 << endl << l3 << endl;   
+        }
+        else if(jgda[3] == 3){
+            string l1 = "___|___|_x_";
+            string l2 = "_x_|___|___";
+            string l3 = " o |   |   ";
+            cout << l1 << endl << l2 << endl << l3 << endl;   
+        }
+        else if(jgda[3] == 5){
+            string l1 = "___|___|___";
+            string l2 = "_x_|_x_|___";
+            string l3 = " o |   |   ";
+            cout << l1 << endl << l2 << endl << l3 << endl;   
+        }
+        else if(jgda[3] == 6){
+            string l1 = "___|___|___";
+            string l2 = "_x_|___|_x_";
+            string l3 = " o |   |   ";
+            cout << l1 << endl << l2 << endl << l3 << endl;   
+        }
+        else if(jgda[3] == 8){
+            string l1 = "___|___|___";
+            string l2 = "_x_|___|___";
+            string l3 = " o | x |   ";
+            cout << l1 << endl << l2 << endl << l3 << endl;   
+        }
+        else{
+            string l1 = "___|___|___";
+            string l2 = "_x_|___|___";
+            string l3 = " o |   | x ";
+            cout << l1 << endl << l2 << endl << l3 << endl;   
+        }
+    }
+    else if(jgda[1] == 4 && jgda[2] == 8){
+        if(jgda[3] == 1){
+            string l1 = "_x_|___|___";
+            string l2 = "_x_|___|___";
+            string l3 = "   | o |   ";
+            cout << l1 << endl << l2 << endl << l3 << endl;   
+        }
+        else if(jgda[3] == 2){
+            string l1 = "___|_x_|___";
+            string l2 = "_x_|___|___";
+            string l3 = "   | o |   ";
+            cout << l1 << endl << l2 << endl << l3 << endl;   
+        }
+        else if(jgda[3] == 3){
+            string l1 = "___|___|_x_";
+            string l2 = "_x_|___|___";
+            string l3 = "   | o |   ";
+            cout << l1 << endl << l2 << endl << l3 << endl;   
+        }
+        else if(jgda[3] == 5){
+            string l1 = "___|___|___";
+            string l2 = "_x_|_x_|___";
+            string l3 = "   | o |   ";
+            cout << l1 << endl << l2 << endl << l3 << endl;   
+        }
+        else if(jgda[3] == 6){
+            string l1 = "___|___|___";
+            string l2 = "_x_|___|_x_";
+            string l3 = "   | o |   ";
+            cout << l1 << endl << l2 << endl << l3 << endl;   
+        }
+        else if(jgda[3] == 7){
+            string l1 = "___|___|___";
+            string l2 = "_x_|___|___";
+            string l3 = " x | o |   ";
+            cout << l1 << endl << l2 << endl << l3 << endl;   
+        }
+        else{
+            string l1 = "___|___|___";
+            string l2 = "_x_|___|___";
+            string l3 = "   | o | x ";
+            cout << l1 << endl << l2 << endl << l3 << endl;   
+        }
+    }
+    else if(jgda[1] == 4 && jgda[2] == 9){
+        if(jgda[3] == 1){
+            string l1 = "_x_|___|___";
+            string l2 = "_x_|___|___";
+            string l3 = "   |   | o ";
+            cout << l1 << endl << l2 << endl << l3 << endl;   
+        }
+        else if(jgda[3] == 2){
+            string l1 = "___|_x_|___";
+            string l2 = "_x_|___|___";
+            string l3 = "   |   | o ";
+            cout << l1 << endl << l2 << endl << l3 << endl;   
+        }
+        else if(jgda[3] == 3){
+            string l1 = "___|___|_x_";
+            string l2 = "_x_|___|___";
+            string l3 = "   |   | o ";
+            cout << l1 << endl << l2 << endl << l3 << endl;   
+        }
+        else if(jgda[3] == 5){
+            string l1 = "___|___|___";
+            string l2 = "_x_|_x_|___";
+            string l3 = "   |   | o ";
+            cout << l1 << endl << l2 << endl << l3 << endl;   
+        }
+        else if(jgda[3] == 6){
+            string l1 = "___|___|___";
+            string l2 = "_x_|___|_x_";
+            string l3 = "   |   | o ";
+            cout << l1 << endl << l2 << endl << l3 << endl;   
+        }
+        else if(jgda[3] == 7){
+            string l1 = "___|___|___";
+            string l2 = "_x_|___|___";
+            string l3 = " x |   | o ";
+            cout << l1 << endl << l2 << endl << l3 << endl;   
+        }
+        else{
+            string l1 = "___|___|___";
+            string l2 = "_x_|___|___";
+            string l3 = "   | x | o ";
+            cout << l1 << endl << l2 << endl << l3 << endl;   
+        }
+    }
+    
+    if(jgda[1] == 5 && jgda[2] == 1){
+        if(jgda[3] == 2){
+            string l1 = "_o_|_x_|___";
+            string l2 = "___|_x_|___";
+            string l3 = "   |   |   ";
+            cout << l1 << endl << l2 << endl << l3 << endl;   
+        }
+        else if(jgda[3] == 3){
+            string l1 = "_o_|___|_x_";
+            string l2 = "___|_x_|___";
+            string l3 = "   |   |   ";
+            cout << l1 << endl << l2 << endl << l3 << endl;   
+        }
+        else if(jgda[3] == 4){
+            string l1 = "_o_|___|___";
+            string l2 = "_x_|_x_|___";
+            string l3 = "   |   |   ";
+            cout << l1 << endl << l2 << endl << l3 << endl;   
+        }
+        else if(jgda[3] == 6){
+            string l1 = "_o_|___|___";
+            string l2 = "___|_x_|_x_";
+            string l3 = "   |   |   ";
+            cout << l1 << endl << l2 << endl << l3 << endl;   
+        }
+        else if(jgda[3] == 7){
+            string l1 = "_o_|___|___";
+            string l2 = "___|_x_|___";
+            string l3 = " x |   |   ";
+            cout << l1 << endl << l2 << endl << l3 << endl;   
+        }
+        else if(jgda[3] == 8){
+            string l1 = "_o_|___|___";
+            string l2 = "___|_x_|___";
+            string l3 = "   | x |   ";
+            cout << l1 << endl << l2 << endl << l3 << endl;   
+        }
+        else{
+            string l1 = "_o_|___|___";
+            string l2 = "___|_x_|___";
+            string l3 = "   |   | x ";
+            cout << l1 << endl << l2 << endl << l3 << endl;   
+        }
+    }
+    else if(jgda[1] == 5 && jgda[2] == 2){
+        if(jgda[3] == 1){
+            string l1 = "_x_|_o_|___";
+            string l2 = "___|_x_|___";
+            string l3 = "   |   |   ";
+            cout << l1 << endl << l2 << endl << l3 << endl;   
+        }
+        else if(jgda[3] == 3){
+            string l1 = "___|_o_|_x_";
+            string l2 = "___|_x_|___";
+            string l3 = "   |   |   ";
+            cout << l1 << endl << l2 << endl << l3 << endl;   
+        }
+        else if(jgda[3] == 4){
+            string l1 = "___|_o_|___";
+            string l2 = "_x_|_x_|___";
+            string l3 = "   |   |   ";
+            cout << l1 << endl << l2 << endl << l3 << endl;   
+        }
+        else if(jgda[3] == 6){
+            string l1 = "___|_o_|___";
+            string l2 = "___|_x_|_x_";
+            string l3 = "   |   |   ";
+            cout << l1 << endl << l2 << endl << l3 << endl;   
+        }
+        else if(jgda[3] == 7){
+            string l1 = "___|_o_|___";
+            string l2 = "___|_x_|___";
+            string l3 = " x |   |   ";
+            cout << l1 << endl << l2 << endl << l3 << endl;   
+        }
+        else if(jgda[3] == 8){
+            string l1 = "___|_o_|___";
+            string l2 = "___|_x_|___";
+            string l3 = "   | x |   ";
+            cout << l1 << endl << l2 << endl << l3 << endl;   
+        }
+        else{
+            string l1 = "___|_o_|___";
+            string l2 = "___|_x_|___";
+            string l3 = "   |   | x ";
+            cout << l1 << endl << l2 << endl << l3 << endl;   
+        }
+    }
+    else if(jgda[1] == 5 && jgda[2] == 3){
+        if(jgda[3] == 1){
+            string l1 = "_x_|___|_o_";
+            string l2 = "___|_x_|___";
+            string l3 = "   |   |   ";
+            cout << l1 << endl << l2 << endl << l3 << endl;   
+        }
+        else if(jgda[3] == 2){
+            string l1 = "___|_x_|_o_";
+            string l2 = "___|_x_|___";
+            string l3 = "   |   |   ";
+            cout << l1 << endl << l2 << endl << l3 << endl;   
+        }
+        else if(jgda[3] == 4){
+            string l1 = "___|___|_o_";
+            string l2 = "_x_|_x_|___";
+            string l3 = "   |   |   ";
+            cout << l1 << endl << l2 << endl << l3 << endl;   
+        }
+        else if(jgda[3] == 6){
+            string l1 = "___|___|_o_";
+            string l2 = "___|_x_|_x_";
+            string l3 = "   |   |   ";
+            cout << l1 << endl << l2 << endl << l3 << endl;   
+        }
+        else if(jgda[3] == 7){
+            string l1 = "___|___|_o_";
+            string l2 = "___|_x_|___";
+            string l3 = " x |   |   ";
+            cout << l1 << endl << l2 << endl << l3 << endl;   
+        }
+        else if(jgda[3] == 8){
+            string l1 = "___|___|_o_";
+            string l2 = "___|_x_|___";
+            string l3 = "   | x |   ";
+            cout << l1 << endl << l2 << endl << l3 << endl;   
+        }
+        else{
+            string l1 = "___|___|_o_";
+            string l2 = "___|_x_|___";
+            string l3 = "   |   | x ";
+            cout << l1 << endl << l2 << endl << l3 << endl;   
+        }
+    }
+    else if(jgda[1] == 5 && jgda[2] == 4){
+        if(jgda[3] == 1){
+            string l1 = "_x_|___|___";
+            string l2 = "_o_|_x_|___";
+            string l3 = "   |   |   ";
+            cout << l1 << endl << l2 << endl << l3 << endl;   
+        }
+        else if(jgda[3] == 2){
+            string l1 = "___|_x_|___";
+            string l2 = "_o_|_x_|___";
+            string l3 = "   |   |   ";
+            cout << l1 << endl << l2 << endl << l3 << endl;   
+        }
+        else if(jgda[3] == 3){
+            string l1 = "___|___|_x_";
+            string l2 = "_o_|_x_|___";
+            string l3 = "   |   |   ";
+            cout << l1 << endl << l2 << endl << l3 << endl;   
+        }
+        else if(jgda[3] == 6){
+            string l1 = "___|___|___";
+            string l2 = "_o_|_x_|_x_";
+            string l3 = "   |   |   ";
+            cout << l1 << endl << l2 << endl << l3 << endl;   
+        }
+        else if(jgda[3] == 7){
+            string l1 = "___|___|___";
+            string l2 = "_o_|_x_|___";
+            string l3 = " x |   |   ";
+            cout << l1 << endl << l2 << endl << l3 << endl;   
+        }
+        else if(jgda[3] == 8){
+            string l1 = "___|___|___";
+            string l2 = "_o_|_x_|___";
+            string l3 = "   | x |   ";
+            cout << l1 << endl << l2 << endl << l3 << endl;   
+        }
+        else{
+            string l1 = "___|___|___";
+            string l2 = "_o_|_x_|___";
+            string l3 = "   |   | x ";
+            cout << l1 << endl << l2 << endl << l3 << endl;   
+        }
+    }
+    else if(jgda[1] == 5 && jgda[2] == 6){
+        if(jgda[3] == 1){
+            string l1 = "_x_|___|___";
+            string l2 = "___|_x_|_o_";
+            string l3 = "   |   |   ";
+            cout << l1 << endl << l2 << endl << l3 << endl;   
+        }
+        else if(jgda[3] == 2){
+            string l1 = "___|_x_|___";
+            string l2 = "___|_x_|_o_";
+            string l3 = "   |   |   ";
+            cout << l1 << endl << l2 << endl << l3 << endl;   
+        }
+        else if(jgda[3] == 3){
+            string l1 = "___|___|_x_";
+            string l2 = "___|_x_|_o_";
+            string l3 = "   |   |   ";
+            cout << l1 << endl << l2 << endl << l3 << endl;   
+        }
+        else if(jgda[3] == 4){
+            string l1 = "___|___|___";
+            string l2 = "_x_|_x_|_o_";
+            string l3 = "   |   |   ";
+            cout << l1 << endl << l2 << endl << l3 << endl;   
+        }
+        else if(jgda[3] == 7){
+            string l1 = "___|___|___";
+            string l2 = "___|_x_|_o_";
+            string l3 = " x |   |   ";
+            cout << l1 << endl << l2 << endl << l3 << endl;   
+        }
+        else if(jgda[3] == 8){
+            string l1 = "___|___|___";
+            string l2 = "___|_x_|_o_";
+            string l3 = "   | x |   ";
+            cout << l1 << endl << l2 << endl << l3 << endl;   
+        }
+        else{
+            string l1 = "___|___|___";
+            string l2 = "___|_x_|_o_";
+            string l3 = "   |   | x ";
+            cout << l1 << endl << l2 << endl << l3 << endl;   
+        }
+    }
+    else if(jgda[1] == 5 && jgda[2] == 7){
+        if(jgda[3] == 1){
+            string l1 = "_x_|___|___";
+            string l2 = "___|_x_|___";
+            string l3 = " o |   |   ";
+            cout << l1 << endl << l2 << endl << l3 << endl;   
+        }
+        else if(jgda[3] == 2){
+            string l1 = "___|_x_|___";
+            string l2 = "___|_x_|___";
+            string l3 = " o |   |   ";
+            cout << l1 << endl << l2 << endl << l3 << endl;   
+        }
+        else if(jgda[3] == 3){
+            string l1 = "___|___|_x_";
+            string l2 = "___|_x_|___";
+            string l3 = " o |   |   ";
+            cout << l1 << endl << l2 << endl << l3 << endl;   
+        }
+        else if(jgda[3] == 4){
+            string l1 = "___|___|___";
+            string l2 = "_x_|_x_|___";
+            string l3 = " o |   |   ";
+            cout << l1 << endl << l2 << endl << l3 << endl;   
+        }
+        else if(jgda[3] == 6){
+            string l1 = "___|___|___";
+            string l2 = "___|_x_|_x_";
+            string l3 = " o |   |   ";
+            cout << l1 << endl << l2 << endl << l3 << endl;   
+        }
+        else if(jgda[3] == 8){
+            string l1 = "___|___|___";
+            string l2 = "___|_x_|___";
+            string l3 = " o | x |   ";
+            cout << l1 << endl << l2 << endl << l3 << endl;   
+        }
+        else{
+            string l1 = "___|___|___";
+            string l2 = "___|_x_|___";
+            string l3 = " o |   | x ";
+            cout << l1 << endl << l2 << endl << l3 << endl;   
+        }
+    }
+    else if(jgda[1] == 5 && jgda[2] == 8){
+        if(jgda[3] == 1){
+            string l1 = "_x_|___|___";
+            string l2 = "___|_x_|___";
+            string l3 = "   | o |   ";
+            cout << l1 << endl << l2 << endl << l3 << endl;   
+        }
+        else if(jgda[3] == 2){
+            string l1 = "___|_x_|___";
+            string l2 = "___|_x_|___";
+            string l3 = "   | o |   ";
+            cout << l1 << endl << l2 << endl << l3 << endl;   
+        }
+        else if(jgda[3] == 3){
+            string l1 = "___|___|_x_";
+            string l2 = "___|_x_|___";
+            string l3 = "   | o |   ";
+            cout << l1 << endl << l2 << endl << l3 << endl;   
+        }
+        else if(jgda[3] == 4){
+            string l1 = "___|___|___";
+            string l2 = "_x_|_x_|___";
+            string l3 = "   | o |   ";
+            cout << l1 << endl << l2 << endl << l3 << endl;   
+        }
+        else if(jgda[3] == 6){
+            string l1 = "___|___|___";
+            string l2 = "___|_x_|_x_";
+            string l3 = "   | o |   ";
+            cout << l1 << endl << l2 << endl << l3 << endl;   
+        }
+        else if(jgda[3] == 7){
+            string l1 = "___|___|___";
+            string l2 = "___|_x_|___";
+            string l3 = " x | o |   ";
+            cout << l1 << endl << l2 << endl << l3 << endl;   
+        }
+        else{
+            string l1 = "___|___|___";
+            string l2 = "___|_x_|___";
+            string l3 = "   | o | x ";
+            cout << l1 << endl << l2 << endl << l3 << endl;   
+        }
+    }
+    else if(jgda[1] == 5 && jgda[2] == 9){
+        if(jgda[3] == 1){
+            string l1 = "_x_|___|___";
+            string l2 = "___|_x_|___";
+            string l3 = "   |   | o ";
+            cout << l1 << endl << l2 << endl << l3 << endl;   
+        }
+        else if(jgda[3] == 2){
+            string l1 = "___|_x_|___";
+            string l2 = "___|_x_|___";
+            string l3 = "   |   | o ";
+            cout << l1 << endl << l2 << endl << l3 << endl;   
+        }
+        else if(jgda[3] == 3){
+            string l1 = "___|___|_x_";
+            string l2 = "___|_x_|___";
+            string l3 = "   |   | o ";
+            cout << l1 << endl << l2 << endl << l3 << endl;   
+        }
+        else if(jgda[3] == 4){
+            string l1 = "___|___|___";
+            string l2 = "_x_|_x_|___";
+            string l3 = "   |   | o ";
+            cout << l1 << endl << l2 << endl << l3 << endl;   
+        }
+        else if(jgda[3] == 6){
+            string l1 = "___|___|___";
+            string l2 = "___|_x_|_x_";
+            string l3 = "   |   | o ";
+            cout << l1 << endl << l2 << endl << l3 << endl;   
+        }
+        else if(jgda[3] == 7){
+            string l1 = "___|___|___";
+            string l2 = "___|_x_|___";
+            string l3 = " x |   | o ";
+            cout << l1 << endl << l2 << endl << l3 << endl;   
+        }
+        else{
+            string l1 = "___|___|___";
+            string l2 = "___|_x_|___";
+            string l3 = "   | x | o ";
+            cout << l1 << endl << l2 << endl << l3 << endl;   
+        }
+    }
+    
+    if(jgda[1] == 6 && jgda[2] == 1){
+        if(jgda[3] == 2){
+            string l1 = "_o_|_x_|___";
+            string l2 = "___|___|_x_";
+            string l3 = "   |   |   ";
+            cout << l1 << endl << l2 << endl << l3 << endl;   
+        }
+        else if(jgda[3] == 3){
+            string l1 = "_o_|___|_x_";
+            string l2 = "___|___|_x_";
+            string l3 = "   |   |   ";
+            cout << l1 << endl << l2 << endl << l3 << endl;   
+        }
+        else if(jgda[3] == 4){
+            string l1 = "_o_|___|___";
+            string l2 = "_x_|___|_x_";
+            string l3 = "   |   |   ";
+            cout << l1 << endl << l2 << endl << l3 << endl;   
+        }
+        else if(jgda[3] == 5){
+            string l1 = "_o_|___|___";
+            string l2 = "___|_x_|_x_";
+            string l3 = "   |   |   ";
+            cout << l1 << endl << l2 << endl << l3 << endl;   
+        }
+        else if(jgda[3] == 7){
+            string l1 = "_o_|___|___";
+            string l2 = "___|___|_x_";
+            string l3 = " x |   |   ";
+            cout << l1 << endl << l2 << endl << l3 << endl;   
+        }
+        else if(jgda[3] == 8){
+            string l1 = "_o_|___|___";
+            string l2 = "___|___|_x_";
+            string l3 = "   | x |   ";
+            cout << l1 << endl << l2 << endl << l3 << endl;   
+        }
+        else{
+            string l1 = "_o_|___|___";
+            string l2 = "___|___|_x_";
+            string l3 = "   |   | x ";
+            cout << l1 << endl << l2 << endl << l3 << endl;   
+        }
+    }
+    else if(jgda[1] == 6 && jgda[2] == 2){
+        if(jgda[3] == 1){
+            string l1 = "_x_|_o_|___";
+            string l2 = "___|___|_x_";
+            string l3 = "   |   |   ";
+            cout << l1 << endl << l2 << endl << l3 << endl;   
+        }
+        else if(jgda[3] == 3){
+            string l1 = "___|_o_|_x_";
+            string l2 = "___|___|_x_";
+            string l3 = "   |   |   ";
+            cout << l1 << endl << l2 << endl << l3 << endl;   
+        }
+        else if(jgda[3] == 4){
+            string l1 = "___|_o_|___";
+            string l2 = "_x_|___|_x_";
+            string l3 = "   |   |   ";
+            cout << l1 << endl << l2 << endl << l3 << endl;   
+        }
+        else if(jgda[3] == 5){
+            string l1 = "___|_o_|___";
+            string l2 = "___|_x_|_x_";
+            string l3 = "   |   |   ";
+            cout << l1 << endl << l2 << endl << l3 << endl;   
+        }
+        else if(jgda[3] == 7){
+            string l1 = "___|_o_|___";
+            string l2 = "___|___|_x_";
+            string l3 = " x |   |   ";
+            cout << l1 << endl << l2 << endl << l3 << endl;   
+        }
+        else if(jgda[3] == 8){
+            string l1 = "___|_o_|___";
+            string l2 = "___|___|_x_";
+            string l3 = "   | x |   ";
+            cout << l1 << endl << l2 << endl << l3 << endl;   
+        }
+        else{
+            string l1 = "___|_o_|___";
+            string l2 = "___|___|_x_";
+            string l3 = "   |   | x ";
+            cout << l1 << endl << l2 << endl << l3 << endl;   
+        }
+    }
+    else if(jgda[1] == 6 && jgda[2] == 3){
+        if(jgda[3] == 1){
+            string l1 = "_x_|___|_o_";
+            string l2 = "___|___|_x_";
+            string l3 = "   |   |   ";
+            cout << l1 << endl << l2 << endl << l3 << endl;   
+        }
+        else if(jgda[3] == 2){
+            string l1 = "___|_x_|_o_";
+            string l2 = "___|___|_x_";
+            string l3 = "   |   |   ";
+            cout << l1 << endl << l2 << endl << l3 << endl;   
+        }
+        else if(jgda[3] == 4){
+            string l1 = "___|___|_o_";
+            string l2 = "_x_|___|_x_";
+            string l3 = "   |   |   ";
+            cout << l1 << endl << l2 << endl << l3 << endl;   
+        }
+        else if(jgda[3] == 5){
+            string l1 = "___|___|_o_";
+            string l2 = "___|_x_|_x_";
+            string l3 = "   |   |   ";
+            cout << l1 << endl << l2 << endl << l3 << endl;   
+        }
+        else if(jgda[3] == 7){
+            string l1 = "___|___|_o_";
+            string l2 = "___|___|_x_";
+            string l3 = " x |   |   ";
+            cout << l1 << endl << l2 << endl << l3 << endl;   
+        }
+        else if(jgda[3] == 8){
+            string l1 = "___|___|_o_";
+            string l2 = "___|___|_x_";
+            string l3 = "   | x |   ";
+            cout << l1 << endl << l2 << endl << l3 << endl;   
+        }
+        else{
+            string l1 = "___|___|_o_";
+            string l2 = "___|___|_x_";
+            string l3 = "   |   | x ";
+            cout << l1 << endl << l2 << endl << l3 << endl;   
+        }
+    }
+    else if(jgda[1] == 6 && jgda[2] == 4){
+        if(jgda[3] == 1){
+            string l1 = "_x_|___|___";
+            string l2 = "_o_|___|_x_";
+            string l3 = "   |   |   ";
+            cout << l1 << endl << l2 << endl << l3 << endl;   
+        }
+        else if(jgda[3] == 2){
+            string l1 = "___|_x_|___";
+            string l2 = "_o_|___|_x_";
+            string l3 = "   |   |   ";
+            cout << l1 << endl << l2 << endl << l3 << endl;   
+        }
+        else if(jgda[3] == 3){
+            string l1 = "___|___|_x_";
+            string l2 = "_o_|___|_x_";
+            string l3 = "   |   |   ";
+            cout << l1 << endl << l2 << endl << l3 << endl;   
+        }
+        else if(jgda[3] == 5){
+            string l1 = "___|___|___";
+            string l2 = "_o_|_x_|_x_";
+            string l3 = "   |   |   ";
+            cout << l1 << endl << l2 << endl << l3 << endl;   
+        }
+        else if(jgda[3] == 7){
+            string l1 = "___|___|___";
+            string l2 = "_o_|___|_x_";
+            string l3 = " x |   |   ";
+            cout << l1 << endl << l2 << endl << l3 << endl;   
+        }
+        else if(jgda[3] == 8){
+            string l1 = "___|___|___";
+            string l2 = "_o_|___|_x_";
+            string l3 = "   | x |   ";
+            cout << l1 << endl << l2 << endl << l3 << endl;   
+        }
+        else{
+            string l1 = "___|___|___";
+            string l2 = "_o_|___|_x_";
+            string l3 = "   |   | x ";
+            cout << l1 << endl << l2 << endl << l3 << endl;   
+        }
+    }
+    else if(jgda[1] == 6 && jgda[2] == 5){
+        if(jgda[3] == 1){
+            string l1 = "_x_|___|___";
+            string l2 = "___|_o_|_x_";
+            string l3 = "   |   |   ";
+            cout << l1 << endl << l2 << endl << l3 << endl;   
+        }
+        else if(jgda[3] == 2){
+            string l1 = "___|_x_|___";
+            string l2 = "___|_o_|_x_";
+            string l3 = "   |   |   ";
+            cout << l1 << endl << l2 << endl << l3 << endl;   
+        }
+        else if(jgda[3] == 3){
+            string l1 = "___|___|_x_";
+            string l2 = "___|_o_|_x_";
+            string l3 = "   |   |   ";
+            cout << l1 << endl << l2 << endl << l3 << endl;   
+        }
+        else if(jgda[3] == 4){
+            string l1 = "___|___|___";
+            string l2 = "_x_|_o_|_x_";
+            string l3 = "   |   |   ";
+            cout << l1 << endl << l2 << endl << l3 << endl;   
+        }
+        else if(jgda[3] == 7){
+            string l1 = "___|___|___";
+            string l2 = "___|_o_|_x_";
+            string l3 = " x |   |   ";
+            cout << l1 << endl << l2 << endl << l3 << endl;   
+        }
+        else if(jgda[3] == 8){
+            string l1 = "___|___|___";
+            string l2 = "___|_o_|_x_";
+            string l3 = "   | x |   ";
+            cout << l1 << endl << l2 << endl << l3 << endl;   
+        }
+        else{
+            string l1 = "___|___|___";
+            string l2 = "___|_o_|_x_";
+            string l3 = "   |   | x ";
+            cout << l1 << endl << l2 << endl << l3 << endl;   
+        }
+    }
+    else if(jgda[1] == 6 && jgda[2] == 7){
+        if(jgda[3] == 1){
+            string l1 = "_x_|___|___";
+            string l2 = "___|___|_x_";
+            string l3 = " o |   |   ";
+            cout << l1 << endl << l2 << endl << l3 << endl;   
+        }
+        else if(jgda[3] == 2){
+            string l1 = "___|_x_|___";
+            string l2 = "___|___|_x_";
+            string l3 = " o |   |   ";
+            cout << l1 << endl << l2 << endl << l3 << endl;   
+        }
+        else if(jgda[3] == 3){
+            string l1 = "___|___|_x_";
+            string l2 = "___|___|_x_";
+            string l3 = " o |   |   ";
+            cout << l1 << endl << l2 << endl << l3 << endl;   
+        }
+        else if(jgda[3] == 4){
+            string l1 = "___|___|___";
+            string l2 = "_x_|___|_x_";
+            string l3 = " o |   |   ";
+            cout << l1 << endl << l2 << endl << l3 << endl;   
+        }
+        else if(jgda[3] == 5){
+            string l1 = "___|___|___";
+            string l2 = "___|_x_|_x_";
+            string l3 = " o |   |   ";
+            cout << l1 << endl << l2 << endl << l3 << endl;   
+        }
+        else if(jgda[3] == 8){
+            string l1 = "___|___|___";
+            string l2 = "___|___|_x_";
+            string l3 = " o | x |   ";
+            cout << l1 << endl << l2 << endl << l3 << endl;   
+        }
+        else{
+            string l1 = "___|___|___";
+            string l2 = "___|___|_x_";
+            string l3 = " o |   | x ";
+            cout << l1 << endl << l2 << endl << l3 << endl;   
+        }
+    }
+    else if(jgda[1] == 6 && jgda[2] == 8){
+        if(jgda[3] == 1){
+            string l1 = "_x_|___|___";
+            string l2 = "___|___|_x_";
+            string l3 = "   | o |   ";
+            cout << l1 << endl << l2 << endl << l3 << endl;   
+        }
+        else if(jgda[3] == 2){
+            string l1 = "___|_x_|___";
+            string l2 = "___|___|_x_";
+            string l3 = "   | o |   ";
+            cout << l1 << endl << l2 << endl << l3 << endl;   
+        }
+        else if(jgda[3] == 3){
+            string l1 = "___|___|_x_";
+            string l2 = "___|___|_x_";
+            string l3 = "   | o |   ";
+            cout << l1 << endl << l2 << endl << l3 << endl;   
+        }
+        else if(jgda[3] == 4){
+            string l1 = "___|___|___";
+            string l2 = "_x_|___|_x_";
+            string l3 = "   | o |   ";
+            cout << l1 << endl << l2 << endl << l3 << endl;   
+        }
+        else if(jgda[3] == 5){
+            string l1 = "___|___|___";
+            string l2 = "___|_x_|_x_";
+            string l3 = "   | o |   ";
+            cout << l1 << endl << l2 << endl << l3 << endl;   
+        }
+        else if(jgda[3] == 7){
+            string l1 = "___|___|___";
+            string l2 = "___|___|_x_";
+            string l3 = " x | o |   ";
+            cout << l1 << endl << l2 << endl << l3 << endl;   
+        }
+        else{
+            string l1 = "___|___|___";
+            string l2 = "___|___|_x_";
+            string l3 = "   | o | x ";
+            cout << l1 << endl << l2 << endl << l3 << endl;   
+        }
+    }
+    else if(jgda[1] == 6 && jgda[2] == 9){
+        if(jgda[3] == 1){
+            string l1 = "_x_|___|___";
+            string l2 = "___|___|_x_";
+            string l3 = "   |   | o ";
+            cout << l1 << endl << l2 << endl << l3 << endl;   
+        }
+        else if(jgda[3] == 2){
+            string l1 = "___|_x_|___";
+            string l2 = "___|___|_x_";
+            string l3 = "   |   | o ";
+            cout << l1 << endl << l2 << endl << l3 << endl;   
+        }
+        else if(jgda[3] == 3){
+            string l1 = "___|___|_x_";
+            string l2 = "___|___|_x_";
+            string l3 = "   |   | o ";
+            cout << l1 << endl << l2 << endl << l3 << endl;   
+        }
+        else if(jgda[3] == 4){
+            string l1 = "___|___|___";
+            string l2 = "_x_|___|_x_";
+            string l3 = "   |   | o ";
+            cout << l1 << endl << l2 << endl << l3 << endl;   
+        }
+        else if(jgda[3] == 5){
+            string l1 = "___|___|___";
+            string l2 = "___|_x_|_x_";
+            string l3 = "   |   | o ";
+            cout << l1 << endl << l2 << endl << l3 << endl;   
+        }
+        else if(jgda[3] == 7){
+            string l1 = "___|___|___";
+            string l2 = "___|___|_x_";
+            string l3 = " x |   | o ";
+            cout << l1 << endl << l2 << endl << l3 << endl;   
+        }
+        else{
+            string l1 = "___|___|___";
+            string l2 = "___|___|_x_";
+            string l3 = "   | x | o ";
+            cout << l1 << endl << l2 << endl << l3 << endl;   
+        }
+    }
+    
+    if(jgda[1] == 7 && jgda[2] == 1){
+        if(jgda[3] == 2){
+            string l1 = "_o_|_x_|___";
+            string l2 = "___|___|___";
+            string l3 = " x |   |   ";
+            cout << l1 << endl << l2 << endl << l3 << endl;   
+        }
+        else if(jgda[3] == 3){
+            string l1 = "_o_|___|_x_";
+            string l2 = "___|___|___";
+            string l3 = " x |   |   ";
+            cout << l1 << endl << l2 << endl << l3 << endl;   
+        }
+        else if(jgda[3] == 4){
+            string l1 = "_o_|___|___";
+            string l2 = "_x_|___|___";
+            string l3 = " x |   |   ";
+            cout << l1 << endl << l2 << endl << l3 << endl;   
+        }
+        else if(jgda[3] == 5){
+            string l1 = "_o_|___|___";
+            string l2 = "___|_x_|___";
+            string l3 = " x |   |   ";
+            cout << l1 << endl << l2 << endl << l3 << endl;   
+        }
+        else if(jgda[3] == 6){
+            string l1 = "_o_|___|___";
+            string l2 = "___|___|_x_";
+            string l3 = " x |   |   ";
+            cout << l1 << endl << l2 << endl << l3 << endl;   
+        }
+        else if(jgda[3] == 8){
+            string l1 = "_o_|___|___";
+            string l2 = "___|___|___";
+            string l3 = " x | x |   ";
+            cout << l1 << endl << l2 << endl << l3 << endl;   
+        }
+        else{
+            string l1 = "_o_|___|___";
+            string l2 = "___|___|___";
+            string l3 = " x |   | x ";
+            cout << l1 << endl << l2 << endl << l3 << endl;   
+        }
+    }
+    else if(jgda[1] == 7 && jgda[2] == 2){
+        if(jgda[3] == 1){
+            string l1 = "_x_|_o_|___";
+            string l2 = "___|___|___";
+            string l3 = " x |   |   ";
+            cout << l1 << endl << l2 << endl << l3 << endl;   
+        }
+        else if(jgda[3] == 3){
+            string l1 = "___|_o_|_x_";
+            string l2 = "___|___|___";
+            string l3 = " x |   |   ";
+            cout << l1 << endl << l2 << endl << l3 << endl;   
+        }
+        else if(jgda[3] == 4){
+            string l1 = "___|_o_|___";
+            string l2 = "_x_|___|___";
+            string l3 = " x |   |   ";
+            cout << l1 << endl << l2 << endl << l3 << endl;   
+        }
+        else if(jgda[3] == 5){
+            string l1 = "___|_o_|___";
+            string l2 = "___|_x_|___";
+            string l3 = " x |   |   ";
+            cout << l1 << endl << l2 << endl << l3 << endl;   
+        }
+        else if(jgda[3] == 6){
+            string l1 = "___|_o_|___";
+            string l2 = "___|___|_x_";
+            string l3 = " x |   |   ";
+            cout << l1 << endl << l2 << endl << l3 << endl;   
+        }
+        else if(jgda[3] == 8){
+            string l1 = "___|_o_|___";
+            string l2 = "___|___|___";
+            string l3 = " x | x |   ";
+            cout << l1 << endl << l2 << endl << l3 << endl;   
+        }
+        else{
+            string l1 = "___|_o_|___";
+            string l2 = "___|___|___";
+            string l3 = " x |   | x ";
+            cout << l1 << endl << l2 << endl << l3 << endl;   
+        }
+    }
+    else if(jgda[1] == 7 && jgda[2] == 3){
+        if(jgda[3] == 1){
+            string l1 = "_x_|___|_o_";
+            string l2 = "___|___|___";
+            string l3 = " x |   |   ";
+            cout << l1 << endl << l2 << endl << l3 << endl;   
+        }
+        else if(jgda[3] == 2){
+            string l1 = "___|_x_|_o_";
+            string l2 = "___|___|___";
+            string l3 = " x |   |   ";
+            cout << l1 << endl << l2 << endl << l3 << endl;   
+        }
+        else if(jgda[3] == 4){
+            string l1 = "___|___|_o_";
+            string l2 = "_x_|___|___";
+            string l3 = " x |   |   ";
+            cout << l1 << endl << l2 << endl << l3 << endl;   
+        }
+        else if(jgda[3] == 5){
+            string l1 = "___|___|_o_";
+            string l2 = "___|_x_|___";
+            string l3 = " x |   |   ";
+            cout << l1 << endl << l2 << endl << l3 << endl;   
+        }
+        else if(jgda[3] == 6){
+            string l1 = "___|___|_o_";
+            string l2 = "___|___|_x_";
+            string l3 = " x |   |   ";
+            cout << l1 << endl << l2 << endl << l3 << endl;   
+        }
+        else if(jgda[3] == 8){
+            string l1 = "___|___|_o_";
+            string l2 = "___|___|___";
+            string l3 = " x | x |   ";
+            cout << l1 << endl << l2 << endl << l3 << endl;   
+        }
+        else{
+            string l1 = "___|___|_o_";
+            string l2 = "___|___|___";
+            string l3 = " x |   | x ";
+            cout << l1 << endl << l2 << endl << l3 << endl;   
+        }
+    }
+    else if(jgda[1] == 7 && jgda[2] == 4){
+        if(jgda[3] == 1){
+            string l1 = "_x_|___|___";
+            string l2 = "_o_|___|___";
+            string l3 = " x |   |   ";
+            cout << l1 << endl << l2 << endl << l3 << endl;   
+        }
+        else if(jgda[3] == 2){
+            string l1 = "___|_x_|___";
+            string l2 = "_o_|___|___";
+            string l3 = " x |   |   ";
+            cout << l1 << endl << l2 << endl << l3 << endl;   
+        }
+        else if(jgda[3] == 3){
+            string l1 = "___|___|_x_";
+            string l2 = "_o_|___|___";
+            string l3 = " x |   |   ";
+            cout << l1 << endl << l2 << endl << l3 << endl;   
+        }
+        else if(jgda[3] == 5){
+            string l1 = "___|___|___";
+            string l2 = "_o_|_x_|___";
+            string l3 = " x |   |   ";
+            cout << l1 << endl << l2 << endl << l3 << endl;   
+        }
+        else if(jgda[3] == 6){
+            string l1 = "___|___|___";
+            string l2 = "_o_|___|_x_";
+            string l3 = " x |   |   ";
+            cout << l1 << endl << l2 << endl << l3 << endl;   
+        }
+        else if(jgda[3] == 8){
+            string l1 = "___|___|___";
+            string l2 = "_o_|___|___";
+            string l3 = " x | x |   ";
+            cout << l1 << endl << l2 << endl << l3 << endl;   
+        }
+        else{
+            string l1 = "___|___|___";
+            string l2 = "_o_|___|___";
+            string l3 = " x |   | x ";
+            cout << l1 << endl << l2 << endl << l3 << endl;   
+        }
+    }
+    else if(jgda[1] == 7 && jgda[2] == 5){
+        if(jgda[3] == 1){
+            string l1 = "_x_|___|___";
+            string l2 = "___|_o_|___";
+            string l3 = " x |   |   ";
+            cout << l1 << endl << l2 << endl << l3 << endl;   
+        }
+        else if(jgda[3] == 2){
+            string l1 = "___|_x_|___";
+            string l2 = "___|_o_|___";
+            string l3 = " x |   |   ";
+            cout << l1 << endl << l2 << endl << l3 << endl;   
+        }
+        else if(jgda[3] == 3){
+            string l1 = "___|___|_x_";
+            string l2 = "___|_o_|___";
+            string l3 = " x |   |   ";
+            cout << l1 << endl << l2 << endl << l3 << endl;   
+        }
+        else if(jgda[3] == 4){
+            string l1 = "___|___|___";
+            string l2 = "_x_|_o_|___";
+            string l3 = " x |   |   ";
+            cout << l1 << endl << l2 << endl << l3 << endl;   
+        }
+        else if(jgda[3] == 6){
+            string l1 = "___|___|___";
+            string l2 = "___|_o_|_x_";
+            string l3 = " x |   |   ";
+            cout << l1 << endl << l2 << endl << l3 << endl;   
+        }
+        else if(jgda[3] == 8){
+            string l1 = "___|___|___";
+            string l2 = "___|_o_|___";
+            string l3 = " x | x |   ";
+            cout << l1 << endl << l2 << endl << l3 << endl;   
+        }
+        else{
+            string l1 = "___|___|___";
+            string l2 = "___|_o_|___";
+            string l3 = " x |   | x ";
+            cout << l1 << endl << l2 << endl << l3 << endl;   
+        }
+    }
+    else if(jgda[1] == 7 && jgda[2] == 6){
+        if(jgda[3] == 1){
+            string l1 = "_x_|___|___";
+            string l2 = "___|___|_o_";
+            string l3 = " x |   |   ";
+            cout << l1 << endl << l2 << endl << l3 << endl;   
+        }
+        else if(jgda[3] == 2){
+            string l1 = "___|_x_|___";
+            string l2 = "___|___|_o_";
+            string l3 = " x |   |   ";
+            cout << l1 << endl << l2 << endl << l3 << endl;   
+        }
+        else if(jgda[3] == 3){
+            string l1 = "___|___|_x_";
+            string l2 = "___|___|_o_";
+            string l3 = " x |   |   ";
+            cout << l1 << endl << l2 << endl << l3 << endl;   
+        }
+        else if(jgda[3] == 4){
+            string l1 = "___|___|___";
+            string l2 = "_x_|___|_o_";
+            string l3 = " x |   |   ";
+            cout << l1 << endl << l2 << endl << l3 << endl;   
+        }
+        else if(jgda[3] == 5){
+            string l1 = "___|___|___";
+            string l2 = "___|_x_|_o_";
+            string l3 = " x |   |   ";
+            cout << l1 << endl << l2 << endl << l3 << endl;   
+        }
+        else if(jgda[3] == 8){
+            string l1 = "___|___|___";
+            string l2 = "___|___|_o_";
+            string l3 = " x | x |   ";
+            cout << l1 << endl << l2 << endl << l3 << endl;   
+        }
+        else{
+            string l1 = "___|___|___";
+            string l2 = "___|___|_o_";
+            string l3 = " x |   | x ";
+            cout << l1 << endl << l2 << endl << l3 << endl;   
+        }
+    }
+    else if(jgda[1] == 7 && jgda[2] == 8){
+        if(jgda[3] == 1){
+            string l1 = "_x_|___|___";
+            string l2 = "___|___|___";
+            string l3 = " x | o |   ";
+            cout << l1 << endl << l2 << endl << l3 << endl;   
+        }
+        else if(jgda[3] == 2){
+            string l1 = "___|_x_|___";
+            string l2 = "___|___|___";
+            string l3 = " x | o |   ";
+            cout << l1 << endl << l2 << endl << l3 << endl;   
+        }
+        else if(jgda[3] == 3){
+            string l1 = "___|___|_x_";
+            string l2 = "___|___|___";
+            string l3 = " x | o |   ";
+            cout << l1 << endl << l2 << endl << l3 << endl;   
+        }
+        else if(jgda[3] == 4){
+            string l1 = "___|___|___";
+            string l2 = "_x_|___|___";
+            string l3 = " x | o |   ";
+            cout << l1 << endl << l2 << endl << l3 << endl;   
+        }
+        else if(jgda[3] == 5){
+            string l1 = "___|___|___";
+            string l2 = "___|_x_|___";
+            string l3 = " x | o |   ";
+            cout << l1 << endl << l2 << endl << l3 << endl;   
+        }
+        else if(jgda[3] == 6){
+            string l1 = "___|___|___";
+            string l2 = "___|___|_x_";
+            string l3 = " x | o |   ";
+            cout << l1 << endl << l2 << endl << l3 << endl;   
+        }
+        else{
+            string l1 = "___|___|___";
+            string l2 = "___|___|___";
+            string l3 = " x | o | x ";
+            cout << l1 << endl << l2 << endl << l3 << endl;   
+        }
+    }
+    else if(jgda[1] == 7 && jgda[2] == 9){
+        if(jgda[3] == 1){
+            string l1 = "_x_|___|___";
+            string l2 = "___|___|___";
+            string l3 = " x |   | o ";
+            cout << l1 << endl << l2 << endl << l3 << endl;   
+        }
+        else if(jgda[3] == 2){
+            string l1 = "___|_x_|___";
+            string l2 = "___|___|___";
+            string l3 = " x |   | o ";
+            cout << l1 << endl << l2 << endl << l3 << endl;   
+        }
+        else if(jgda[3] == 3){
+            string l1 = "___|___|_x_";
+            string l2 = "___|___|___";
+            string l3 = " x |   | o ";
+            cout << l1 << endl << l2 << endl << l3 << endl;   
+        }
+        else if(jgda[3] == 4){
+            string l1 = "___|___|___";
+            string l2 = "_x_|___|___";
+            string l3 = " x |   | o ";
+            cout << l1 << endl << l2 << endl << l3 << endl;   
+        }
+        else if(jgda[3] == 5){
+            string l1 = "___|___|___";
+            string l2 = "___|_x_|___";
+            string l3 = " x |   | o ";
+            cout << l1 << endl << l2 << endl << l3 << endl;   
+        }
+        else if(jgda[3] == 6){
+            string l1 = "___|___|___";
+            string l2 = "___|___|_x_";
+            string l3 = " x |   | o ";
+            cout << l1 << endl << l2 << endl << l3 << endl;   
+        }
+        else{
+            string l1 = "___|___|___";
+            string l2 = "___|___|___";
+            string l3 = " x | x | o ";
+            cout << l1 << endl << l2 << endl << l3 << endl;   
+        }
+    }
+    
+    if(jgda[1] == 8 && jgda[2] == 1){
+        if(jgda[3] == 2){
+            string l1 = "_o_|_x_|___";
+            string l2 = "___|___|___";
+            string l3 = "   | x |   ";
+            cout << l1 << endl << l2 << endl << l3 << endl;   
+        }
+        else if(jgda[3] == 3){
+            string l1 = "_o_|___|_x_";
+            string l2 = "___|___|___";
+            string l3 = "   | x |   ";
+            cout << l1 << endl << l2 << endl << l3 << endl;   
+        }
+        else if(jgda[3] == 4){
+            string l1 = "_o_|___|___";
+            string l2 = "_x_|___|___";
+            string l3 = "   | x |   ";
+            cout << l1 << endl << l2 << endl << l3 << endl;   
+        }
+        else if(jgda[3] == 5){
+            string l1 = "_o_|___|___";
+            string l2 = "___|_x_|___";
+            string l3 = "   | x |   ";
+            cout << l1 << endl << l2 << endl << l3 << endl;   
+        }
+        else if(jgda[3] == 6){
+            string l1 = "_o_|___|___";
+            string l2 = "___|___|_x_";
+            string l3 = "   | x |   ";
+            cout << l1 << endl << l2 << endl << l3 << endl;   
+        }
+        else if(jgda[3] == 7){
+            string l1 = "_o_|___|___";
+            string l2 = "___|___|___";
+            string l3 = " x | x |   ";
+            cout << l1 << endl << l2 << endl << l3 << endl;   
+        }
+        else{
+            string l1 = "_o_|___|___";
+            string l2 = "___|___|___";
+            string l3 = "   | x | x ";
+            cout << l1 << endl << l2 << endl << l3 << endl;   
+        }
+    }
+    else if(jgda[1] == 8 && jgda[2] == 2){
+        if(jgda[3] == 1){
+            string l1 = "_x_|_o_|___";
+            string l2 = "___|___|___";
+            string l3 = "   | x |   ";
+            cout << l1 << endl << l2 << endl << l3 << endl;   
+        }
+        else if(jgda[3] == 3){
+            string l1 = "___|_o_|_x_";
+            string l2 = "___|___|___";
+            string l3 = "   | x |   ";
+            cout << l1 << endl << l2 << endl << l3 << endl;   
+        }
+        else if(jgda[3] == 4){
+            string l1 = "___|_o_|___";
+            string l2 = "_x_|___|___";
+            string l3 = "   | x |   ";
+            cout << l1 << endl << l2 << endl << l3 << endl;   
+        }
+        else if(jgda[3] == 5){
+            string l1 = "___|_o_|___";
+            string l2 = "___|_x_|___";
+            string l3 = "   | x |   ";
+            cout << l1 << endl << l2 << endl << l3 << endl;   
+        }
+        else if(jgda[3] == 6){
+            string l1 = "___|_o_|___";
+            string l2 = "___|___|_x_";
+            string l3 = "   | x |   ";
+            cout << l1 << endl << l2 << endl << l3 << endl;   
+        }
+        else if(jgda[3] == 7){
+            string l1 = "___|_o_|___";
+            string l2 = "___|___|___";
+            string l3 = " x | x |   ";
+            cout << l1 << endl << l2 << endl << l3 << endl;   
+        }
+        else{
+            string l1 = "___|_o_|___";
+            string l2 = "___|___|___";
+            string l3 = "   | x | x ";
+            cout << l1 << endl << l2 << endl << l3 << endl;   
+        }
+    }
+    else if(jgda[1] == 8 && jgda[2] == 3){
+        if(jgda[3] == 1){
+            string l1 = "_x_|___|_o_";
+            string l2 = "___|___|___";
+            string l3 = "   | x |   ";
+            cout << l1 << endl << l2 << endl << l3 << endl;   
+        }
+        else if(jgda[3] == 2){
+            string l1 = "___|_x_|_o_";
+            string l2 = "___|___|___";
+            string l3 = "   | x |   ";
+            cout << l1 << endl << l2 << endl << l3 << endl;   
+        }
+        else if(jgda[3] == 4){
+            string l1 = "___|___|_o_";
+            string l2 = "_x_|___|___";
+            string l3 = "   | x |   ";
+            cout << l1 << endl << l2 << endl << l3 << endl;   
+        }
+        else if(jgda[3] == 5){
+            string l1 = "___|___|_o_";
+            string l2 = "___|_x_|___";
+            string l3 = "   | x |   ";
+            cout << l1 << endl << l2 << endl << l3 << endl;   
+        }
+        else if(jgda[3] == 6){
+            string l1 = "___|___|_o_";
+            string l2 = "___|___|_x_";
+            string l3 = "   | x |   ";
+            cout << l1 << endl << l2 << endl << l3 << endl;   
+        }
+        else if(jgda[3] == 7){
+            string l1 = "___|___|_o_";
+            string l2 = "___|___|___";
+            string l3 = " x | x |   ";
+            cout << l1 << endl << l2 << endl << l3 << endl;   
+        }
+        else{
+            string l1 = "___|___|_o_";
+            string l2 = "___|___|___";
+            string l3 = "   | x | x ";
+            cout << l1 << endl << l2 << endl << l3 << endl;   
+        }
+    }
+    else if(jgda[1] == 8 && jgda[2] == 4){
+        if(jgda[3] == 1){
+            string l1 = "_x_|___|___";
+            string l2 = "_o_|___|___";
+            string l3 = "   | x |   ";
+            cout << l1 << endl << l2 << endl << l3 << endl;   
+        }
+        else if(jgda[3] == 2){
+            string l1 = "___|_x_|___";
+            string l2 = "_o_|___|___";
+            string l3 = "   | x |   ";
+            cout << l1 << endl << l2 << endl << l3 << endl;   
+        }
+        else if(jgda[3] == 3){
+            string l1 = "___|___|_x_";
+            string l2 = "_o_|___|___";
+            string l3 = "   | x |   ";
+            cout << l1 << endl << l2 << endl << l3 << endl;   
+        }
+        else if(jgda[3] == 5){
+            string l1 = "___|___|___";
+            string l2 = "_o_|_x_|___";
+            string l3 = "   | x |   ";
+            cout << l1 << endl << l2 << endl << l3 << endl;   
+        }
+        else if(jgda[3] == 6){
+            string l1 = "___|___|___";
+            string l2 = "_o_|___|_x_";
+            string l3 = "   | x |   ";
+            cout << l1 << endl << l2 << endl << l3 << endl;   
+        }
+        else if(jgda[3] == 7){
+            string l1 = "___|___|___";
+            string l2 = "_o_|___|___";
+            string l3 = " x | x |   ";
+            cout << l1 << endl << l2 << endl << l3 << endl;   
+        }
+        else{
+            string l1 = "___|___|___";
+            string l2 = "_o_|___|___";
+            string l3 = "   | x | x ";
+            cout << l1 << endl << l2 << endl << l3 << endl;   
+        }
+    }
+    else if(jgda[1] == 8 && jgda[2] == 5){
+        if(jgda[3] == 1){
+            string l1 = "_x_|___|___";
+            string l2 = "___|_o_|___";
+            string l3 = "   | x |   ";
+            cout << l1 << endl << l2 << endl << l3 << endl;   
+        }
+        else if(jgda[3] == 2){
+            string l1 = "___|_x_|___";
+            string l2 = "___|_o_|___";
+            string l3 = "   | x |   ";
+            cout << l1 << endl << l2 << endl << l3 << endl;   
+        }
+        else if(jgda[3] == 3){
+            string l1 = "___|___|_x_";
+            string l2 = "___|_o_|___";
+            string l3 = "   | x |   ";
+            cout << l1 << endl << l2 << endl << l3 << endl;   
+        }
+        else if(jgda[3] == 4){
+            string l1 = "___|___|___";
+            string l2 = "_x_|_o_|___";
+            string l3 = "   | x |   ";
+            cout << l1 << endl << l2 << endl << l3 << endl;   
+        }
+        else if(jgda[3] == 6){
+            string l1 = "___|___|___";
+            string l2 = "___|_o_|_x_";
+            string l3 = "   | x |   ";
+            cout << l1 << endl << l2 << endl << l3 << endl;   
+        }
+        else if(jgda[3] == 7){
+            string l1 = "___|___|___";
+            string l2 = "___|_o_|___";
+            string l3 = " x | x |   ";
+            cout << l1 << endl << l2 << endl << l3 << endl;   
+        }
+        else{
+            string l1 = "___|___|___";
+            string l2 = "___|_o_|___";
+            string l3 = "   | x | x ";
+            cout << l1 << endl << l2 << endl << l3 << endl;   
+        }
+    }
+    else if(jgda[1] == 8 && jgda[2] == 6){
+        if(jgda[3] == 1){
+            string l1 = "_x_|___|___";
+            string l2 = "___|___|_o_";
+            string l3 = "   | x |   ";
+            cout << l1 << endl << l2 << endl << l3 << endl;   
+        }
+        else if(jgda[3] == 2){
+            string l1 = "___|_x_|___";
+            string l2 = "___|___|_o_";
+            string l3 = "   | x |   ";
+            cout << l1 << endl << l2 << endl << l3 << endl;   
+        }
+        else if(jgda[3] == 3){
+            string l1 = "___|___|_x_";
+            string l2 = "___|___|_o_";
+            string l3 = "   | x |   ";
+            cout << l1 << endl << l2 << endl << l3 << endl;   
+        }
+        else if(jgda[3] == 4){
+            string l1 = "___|___|___";
+            string l2 = "_x_|___|_o_";
+            string l3 = "   | x |   ";
+            cout << l1 << endl << l2 << endl << l3 << endl;   
+        }
+        else if(jgda[3] == 5){
+            string l1 = "___|___|___";
+            string l2 = "___|_x_|_o_";
+            string l3 = "   | x |   ";
+            cout << l1 << endl << l2 << endl << l3 << endl;   
+        }
+        else if(jgda[3] == 7){
+            string l1 = "___|___|___";
+            string l2 = "___|___|_o_";
+            string l3 = " x | x |   ";
+            cout << l1 << endl << l2 << endl << l3 << endl;   
+        }
+        else{
+            string l1 = "___|___|___";
+            string l2 = "___|___|_o_";
+            string l3 = "   | x | x ";
+            cout << l1 << endl << l2 << endl << l3 << endl;   
+        }
+    }
+    else if(jgda[1] == 8 && jgda[2] == 7){
+        if(jgda[3] == 1){
+            string l1 = "_x_|___|___";
+            string l2 = "___|___|___";
+            string l3 = " o | x |   ";
+            cout << l1 << endl << l2 << endl << l3 << endl;   
+        }
+        else if(jgda[3] == 2){
+            string l1 = "___|_x_|___";
+            string l2 = "___|___|___";
+            string l3 = " o | x |   ";
+            cout << l1 << endl << l2 << endl << l3 << endl;   
+        }
+        else if(jgda[3] == 3){
+            string l1 = "___|___|_x_";
+            string l2 = "___|___|___";
+            string l3 = " o | x |   ";
+            cout << l1 << endl << l2 << endl << l3 << endl;   
+        }
+        else if(jgda[3] == 4){
+            string l1 = "___|___|___";
+            string l2 = "_x_|___|___";
+            string l3 = " o | x |   ";
+            cout << l1 << endl << l2 << endl << l3 << endl;   
+        }
+        else if(jgda[3] == 5){
+            string l1 = "___|___|___";
+            string l2 = "___|_x_|___";
+            string l3 = " o | x |   ";
+            cout << l1 << endl << l2 << endl << l3 << endl;   
+        }
+        else if(jgda[3] == 6){
+            string l1 = "___|___|___";
+            string l2 = "___|___|_x_";
+            string l3 = " o | x |   ";
+            cout << l1 << endl << l2 << endl << l3 << endl;   
+        }
+        else{
+            string l1 = "___|___|___";
+            string l2 = "___|___|___";
+            string l3 = " o | x | x ";
+            cout << l1 << endl << l2 << endl << l3 << endl;   
+        }
+    }
+    else if(jgda[1] == 8 && jgda[2] == 9){
+        if(jgda[3] == 1){
+            string l1 = "_x_|___|___";
+            string l2 = "___|___|___";
+            string l3 = "   | x | o ";
+            cout << l1 << endl << l2 << endl << l3 << endl;   
+        }
+        else if(jgda[3] == 2){
+            string l1 = "___|_x_|___";
+            string l2 = "___|___|___";
+            string l3 = "   | x | o ";
+            cout << l1 << endl << l2 << endl << l3 << endl;   
+        }
+        else if(jgda[3] == 3){
+            string l1 = "___|___|_x_";
+            string l2 = "___|___|___";
+            string l3 = "   | x | o ";
+            cout << l1 << endl << l2 << endl << l3 << endl;   
+        }
+        else if(jgda[3] == 4){
+            string l1 = "___|___|___";
+            string l2 = "_x_|___|___";
+            string l3 = "   | x | o ";
+            cout << l1 << endl << l2 << endl << l3 << endl;   
+        }
+        else if(jgda[3] == 5){
+            string l1 = "___|___|___";
+            string l2 = "___|_x_|___";
+            string l3 = "   | x | o ";
+            cout << l1 << endl << l2 << endl << l3 << endl;   
+        }
+        else if(jgda[3] == 6){
+            string l1 = "___|___|___";
+            string l2 = "___|___|_x_";
+            string l3 = "   | x | o ";
+            cout << l1 << endl << l2 << endl << l3 << endl;   
+        }
+        else{
+            string l1 = "___|___|___";
+            string l2 = "___|___|___";
+            string l3 = " x | x | o ";
+            cout << l1 << endl << l2 << endl << l3 << endl;   
+        }
+    }
+    
+    if(jgda[1] == 9 && jgda[2] == 1){
+        if(jgda[3] == 2){
+            string l1 = "_o_|_x_|___";
+            string l2 = "___|___|___";
+            string l3 = "   |   | x ";
+            cout << l1 << endl << l2 << endl << l3 << endl;   
+        }
+        else if(jgda[3] == 3){
+            string l1 = "_o_|___|_x_";
+            string l2 = "___|___|___";
+            string l3 = "   |   | x ";
+            cout << l1 << endl << l2 << endl << l3 << endl;   
+        }
+        else if(jgda[3] == 4){
+            string l1 = "_o_|___|___";
+            string l2 = "_x_|___|___";
+            string l3 = "   |   | x ";
+            cout << l1 << endl << l2 << endl << l3 << endl;   
+        }
+        else if(jgda[3] == 5){
+            string l1 = "_o_|___|___";
+            string l2 = "___|_x_|___";
+            string l3 = "   |   | x ";
+            cout << l1 << endl << l2 << endl << l3 << endl;   
+        }
+        else if(jgda[3] == 6){
+            string l1 = "_o_|___|___";
+            string l2 = "___|___|_x_";
+            string l3 = "   |   | x ";
+            cout << l1 << endl << l2 << endl << l3 << endl;   
+        }
+        else if(jgda[3] == 7){
+            string l1 = "_o_|___|___";
+            string l2 = "___|___|___";
+            string l3 = " x |   | x ";
+            cout << l1 << endl << l2 << endl << l3 << endl;   
+        }
+        else{
+            string l1 = "_o_|___|___";
+            string l2 = "___|___|___";
+            string l3 = "   | x | x ";
+            cout << l1 << endl << l2 << endl << l3 << endl;   
+        }
+    }
+    else if(jgda[1] == 9 && jgda[2] == 2){
+        if(jgda[3] == 1){
+            string l1 = "_x_|_o_|___";
+            string l2 = "___|___|___";
+            string l3 = "   |   | x ";
+            cout << l1 << endl << l2 << endl << l3 << endl;   
+        }
+        else if(jgda[3] == 3){
+            string l1 = "___|_o_|_x_";
+            string l2 = "___|___|___";
+            string l3 = "   |   | x ";
+            cout << l1 << endl << l2 << endl << l3 << endl;   
+        }
+        else if(jgda[3] == 4){
+            string l1 = "___|_o_|___";
+            string l2 = "_x_|___|___";
+            string l3 = "   |   | x ";
+            cout << l1 << endl << l2 << endl << l3 << endl;   
+        }
+        else if(jgda[3] == 5){
+            string l1 = "___|_o_|___";
+            string l2 = "___|_x_|___";
+            string l3 = "   |   | x ";
+            cout << l1 << endl << l2 << endl << l3 << endl;   
+        }
+        else if(jgda[3] == 6){
+            string l1 = "___|_o_|___";
+            string l2 = "___|___|_x_";
+            string l3 = "   |   | x ";
+            cout << l1 << endl << l2 << endl << l3 << endl;   
+        }
+        else if(jgda[3] == 7){
+            string l1 = "___|_o_|___";
+            string l2 = "___|___|___";
+            string l3 = " x |   | x ";
+            cout << l1 << endl << l2 << endl << l3 << endl;   
+        }
+        else{
+            string l1 = "___|_o_|___";
+            string l2 = "___|___|___";
+            string l3 = "   | x | x ";
+            cout << l1 << endl << l2 << endl << l3 << endl;   
+        }
+    }
+    else if(jgda[1] == 9 && jgda[2] == 3){
+        if(jgda[3] == 1){
+            string l1 = "_x_|___|_o_";
+            string l2 = "___|___|___";
+            string l3 = "   |   | x ";
+            cout << l1 << endl << l2 << endl << l3 << endl;   
+        }
+        else if(jgda[3] == 2){
+            string l1 = "___|_x_|_o_";
+            string l2 = "___|___|___";
+            string l3 = "   |   | x ";
+            cout << l1 << endl << l2 << endl << l3 << endl;   
+        }
+        else if(jgda[3] == 4){
+            string l1 = "___|___|_o_";
+            string l2 = "_x_|___|___";
+            string l3 = "   |   | x ";
+            cout << l1 << endl << l2 << endl << l3 << endl;   
+        }
+        else if(jgda[3] == 5){
+            string l1 = "___|___|_o_";
+            string l2 = "___|_x_|___";
+            string l3 = "   |   | x ";
+            cout << l1 << endl << l2 << endl << l3 << endl;   
+        }
+        else if(jgda[3] == 6){
+            string l1 = "___|___|_o_";
+            string l2 = "___|___|_x_";
+            string l3 = "   |   | x ";
+            cout << l1 << endl << l2 << endl << l3 << endl;   
+        }
+        else if(jgda[3] == 7){
+            string l1 = "___|___|_o_";
+            string l2 = "___|___|___";
+            string l3 = " x |   | x ";
+            cout << l1 << endl << l2 << endl << l3 << endl;   
+        }
+        else{
+            string l1 = "___|___|_o_";
+            string l2 = "___|___|___";
+            string l3 = "   | x | x ";
+            cout << l1 << endl << l2 << endl << l3 << endl;   
+        }
+    }
+    else if(jgda[1] == 9 && jgda[2] == 4){
+        if(jgda[3] == 1){
+            string l1 = "_x_|___|___";
+            string l2 = "_o_|___|___";
+            string l3 = "   |   | x ";
+            cout << l1 << endl << l2 << endl << l3 << endl;   
+        }
+        else if(jgda[3] == 2){
+            string l1 = "___|_x_|___";
+            string l2 = "_o_|___|___";
+            string l3 = "   |   | x ";
+            cout << l1 << endl << l2 << endl << l3 << endl;   
+        }
+        else if(jgda[3] == 3){
+            string l1 = "___|___|_x_";
+            string l2 = "_o_|___|___";
+            string l3 = "   |   | x ";
+            cout << l1 << endl << l2 << endl << l3 << endl;   
+        }
+        else if(jgda[3] == 5){
+            string l1 = "___|___|___";
+            string l2 = "_o_|_x_|___";
+            string l3 = "   |   | x ";
+            cout << l1 << endl << l2 << endl << l3 << endl;   
+        }
+        else if(jgda[3] == 6){
+            string l1 = "___|___|___";
+            string l2 = "_o_|___|_x_";
+            string l3 = "   |   | x ";
+            cout << l1 << endl << l2 << endl << l3 << endl;   
+        }
+        else if(jgda[3] == 7){
+            string l1 = "___|___|___";
+            string l2 = "_o_|___|___";
+            string l3 = " x |   | x ";
+            cout << l1 << endl << l2 << endl << l3 << endl;   
+        }
+        else{
+            string l1 = "___|___|___";
+            string l2 = "_o_|___|___";
+            string l3 = "   | x | x ";
+            cout << l1 << endl << l2 << endl << l3 << endl;   
+        }
+    }
+    else if(jgda[1] == 9 && jgda[2] == 5){
+        if(jgda[3] == 1){
+            string l1 = "_x_|___|___";
+            string l2 = "___|_o_|___";
+            string l3 = "   |   | x ";
+            cout << l1 << endl << l2 << endl << l3 << endl;   
+        }
+        else if(jgda[3] == 2){
+            string l1 = "___|_x_|___";
+            string l2 = "___|_o_|___";
+            string l3 = "   |   | x ";
+            cout << l1 << endl << l2 << endl << l3 << endl;   
+        }
+        else if(jgda[3] == 3){
+            string l1 = "___|___|_x_";
+            string l2 = "___|_o_|___";
+            string l3 = "   |   | x ";
+            cout << l1 << endl << l2 << endl << l3 << endl;   
+        }
+        else if(jgda[3] == 4){
+            string l1 = "___|___|___";
+            string l2 = "_x_|_o_|___";
+            string l3 = "   |   | x ";
+            cout << l1 << endl << l2 << endl << l3 << endl;   
+        }
+        else if(jgda[3] == 6){
+            string l1 = "___|___|___";
+            string l2 = "___|_o_|_x_";
+            string l3 = "   |   | x ";
+            cout << l1 << endl << l2 << endl << l3 << endl;   
+        }
+        else if(jgda[3] == 7){
+            string l1 = "___|___|___";
+            string l2 = "___|_o_|___";
+            string l3 = " x |   | x ";
+            cout << l1 << endl << l2 << endl << l3 << endl;   
+        }
+        else{
+            string l1 = "___|___|___";
+            string l2 = "___|_o_|___";
+            string l3 = "   | x | x ";
+            cout << l1 << endl << l2 << endl << l3 << endl;   
+        }
+    }
+    else if(jgda[1] == 9 && jgda[2] == 6){
+        if(jgda[3] == 1){
+            string l1 = "_x_|___|___";
+            string l2 = "___|___|_o_";
+            string l3 = "   |   | x ";
+            cout << l1 << endl << l2 << endl << l3 << endl;   
+        }
+        else if(jgda[3] == 2){
+            string l1 = "___|_x_|___";
+            string l2 = "___|___|_o_";
+            string l3 = "   |   | x ";
+            cout << l1 << endl << l2 << endl << l3 << endl;   
+        }
+        else if(jgda[3] == 3){
+            string l1 = "___|___|_x_";
+            string l2 = "___|___|_o_";
+            string l3 = "   |   | x ";
+            cout << l1 << endl << l2 << endl << l3 << endl;   
+        }
+        else if(jgda[3] == 4){
+            string l1 = "___|___|___";
+            string l2 = "_x_|___|_o_";
+            string l3 = "   |   | x ";
+            cout << l1 << endl << l2 << endl << l3 << endl;   
+        }
+        else if(jgda[3] == 5){
+            string l1 = "___|___|___";
+            string l2 = "___|_x_|_o_";
+            string l3 = "   |   | x ";
+            cout << l1 << endl << l2 << endl << l3 << endl;   
+        }
+        else if(jgda[3] == 7){
+            string l1 = "___|___|___";
+            string l2 = "___|___|_o_";
+            string l3 = " x |   | x ";
+            cout << l1 << endl << l2 << endl << l3 << endl;   
+        }
+        else{
+            string l1 = "___|___|___";
+            string l2 = "___|___|_o_";
+            string l3 = "   | x | x ";
+            cout << l1 << endl << l2 << endl << l3 << endl;   
+        }
+    }
+    else if(jgda[1] == 9 && jgda[2] == 7){
+        if(jgda[3] == 1){
+            string l1 = "_x_|___|___";
+            string l2 = "___|___|___";
+            string l3 = " o |   | x ";
+            cout << l1 << endl << l2 << endl << l3 << endl;   
+        }
+        else if(jgda[3] == 2){
+            string l1 = "___|_x_|___";
+            string l2 = "___|___|___";
+            string l3 = " o |   | x ";
+            cout << l1 << endl << l2 << endl << l3 << endl;   
+        }
+        else if(jgda[3] == 3){
+            string l1 = "___|___|_x_";
+            string l2 = "___|___|___";
+            string l3 = " o |   | x ";
+            cout << l1 << endl << l2 << endl << l3 << endl;   
+        }
+        else if(jgda[3] == 4){
+            string l1 = "___|___|___";
+            string l2 = "_x_|___|___";
+            string l3 = " o |   | x ";
+            cout << l1 << endl << l2 << endl << l3 << endl;   
+        }
+        else if(jgda[3] == 5){
+            string l1 = "___|___|___";
+            string l2 = "___|_x_|___";
+            string l3 = " o |   | x ";
+            cout << l1 << endl << l2 << endl << l3 << endl;   
+        }
+        else if(jgda[3] == 6){
+            string l1 = "___|___|___";
+            string l2 = "___|___|_x_";
+            string l3 = " o |   | x ";
+            cout << l1 << endl << l2 << endl << l3 << endl;   
+        }
+        else{
+            string l1 = "___|___|___";
+            string l2 = "___|___|___";
+            string l3 = " o | x | x ";
+            cout << l1 << endl << l2 << endl << l3 << endl;   
+        }
+    }
+    else if(jgda[1] == 9 && jgda[2] == 8){
+        if(jgda[3] == 1){
+            string l1 = "_x_|___|___";
+            string l2 = "___|___|___";
+            string l3 = "   | o | x ";
+            cout << l1 << endl << l2 << endl << l3 << endl;   
+        }
+        else if(jgda[3] == 2){
+            string l1 = "___|_x_|___";
+            string l2 = "___|___|___";
+            string l3 = "   | o | x ";
+            cout << l1 << endl << l2 << endl << l3 << endl;   
+        }
+        else if(jgda[3] == 3){
+            string l1 = "___|___|_x_";
+            string l2 = "___|___|___";
+            string l3 = "   | o | x ";
+            cout << l1 << endl << l2 << endl << l3 << endl;   
+        }
+        else if(jgda[3] == 4){
+            string l1 = "___|___|___";
+            string l2 = "_x_|___|___";
+            string l3 = "   | o | x ";
+            cout << l1 << endl << l2 << endl << l3 << endl;   
+        }
+        else if(jgda[3] == 5){
+            string l1 = "___|___|___";
+            string l2 = "___|_x_|___";
+            string l3 = "   | o | x ";
+            cout << l1 << endl << l2 << endl << l3 << endl;   
+        }
+        else if(jgda[3] == 6){
+            string l1 = "___|___|___";
+            string l2 = "___|___|_x_";
+            string l3 = "   | o | x ";
+            cout << l1 << endl << l2 << endl << l3 << endl;   
+        }
+        else{
+            string l1 = "___|___|___";
+            string l2 = "___|___|___";
+            string l3 = " x | o | x ";
             cout << l1 << endl << l2 << endl << l3 << endl;   
         }
     }
